@@ -9,9 +9,9 @@
 
 #include "Point.h"
 
-double B(int, int, double, double);										// Non-Recursive h-Bernstein Polynomial
-double BR(int, int, double, double);									// Recursive h-Bernstein Polynomial
-double PR(int, int, int, double, double, double*);					// 1-D h-de Casteljau Recursive Evaluation Algorithm
-Point f(Point**, int, int, int, int, double, double, double);	// 2-D h-de Casteljau Recursive Evaluation Algorithm
+double B(int, int, double, double);                           // Non-Recursive h-Bernstein Polynomial
+double BR(int, int, double, double);                          // Recursive h-Bernstein Polynomial
+double PR(int, int, int, double, double, double*);            // 1-D h-de Casteljau Recursive Evaluation Algorithm
+Point f(Point**, int, int, int, int, double, double, double); // 2-D h-de Casteljau Recursive Evaluation Algorithm
 
 #endif // MAINFUNCTIONS_H
